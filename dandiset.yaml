@@ -15,9 +15,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   numberOfBytes: 660027
   numberOfFiles: 3
@@ -28,10 +28,10 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
   - OpticalChannel
   - ImagingPlane
   - PlaneSegmentation
+  - ProcessingModule
 citation: Reimer, Marike (2025) DataJoint fractal analysis workflow (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001618/draft
 contributor:
